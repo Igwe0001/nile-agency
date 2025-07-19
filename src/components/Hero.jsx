@@ -1,6 +1,6 @@
 import Button from "../components/UI/Button";
 import { assets } from "../assets/assets";
-import Skill from "./UI/skill";
+import Skill from "./UI/Skill";
 
 function Hero() {
   return (
