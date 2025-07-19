@@ -12,7 +12,7 @@ import person1 from "./person-1.png";
 import beneoshop from "./beneoshop.png";
 import caspio from "./caspio.png";
 import leotrippi from "./leotrippi.png";
-import hypergrid from "./hyperGrid.png";
+import hypergrid from "./HyperGrid.png";
 
 export const assets = {
   hero,
