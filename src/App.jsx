@@ -1,4 +1,4 @@
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Homeinfo from "./components/Homeinfo";
 import Newsletter from "./components/Newsletter";
