@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "./UI/Button";
+import { NavLink, Link } from "react-router";
 import { Menu, X } from "lucide-react"; // Optional icon library like lucide-react
 
 function Nav() {
@@ -15,10 +16,10 @@ function Nav() {
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-10 items-center">
           <li className="cursor-pointer hover:text-primary">
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="cursor-pointer hover:text-primary">
-            <a href="#">About us</a>
+            <Link to="/about">About us</Link>
           </li>
           <li className="cursor-pointer hover:text-primary">
             <a href="#">Services</a>
@@ -44,14 +45,17 @@ function Nav() {
         <div className="md:hidden absolute top-[70px] left-0 w-full bg-white shadow-md px-4 py-6 z-40">
           <ul className="flex flex-col gap-4">
             <li>
-              <a href="#" className="block text-gray-800 hover:text-primary">
+              <Link to="/" className="block text-gray-800 hover:text-primary">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block text-gray-800 hover:text-primary">
+              <Link
+                to="/about"
+                className="block text-gray-800 hover:text-primary"
+              >
                 About us
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#" className="block text-gray-800 hover:text-primary">
